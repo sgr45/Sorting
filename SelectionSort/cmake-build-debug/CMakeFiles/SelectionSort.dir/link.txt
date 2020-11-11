@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/SelectionSort.dir/main.cpp.o CMakeFiles/SelectionSort.dir/source/Rectangle.cpp.o CMakeFiles/SelectionSort.dir/source/selectionsort.cpp.o  -o SelectionSort  -lSDL2 

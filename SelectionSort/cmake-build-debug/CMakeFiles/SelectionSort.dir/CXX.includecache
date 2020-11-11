@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/includes/Rectangle.h
+SDL2/SDL.h
+/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/includes/SDL2/SDL.h
+vector
+/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/includes/vector
+
+/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Rectangle.cpp
+../includes/Rectangle.h
+/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/includes/Rectangle.h
+
