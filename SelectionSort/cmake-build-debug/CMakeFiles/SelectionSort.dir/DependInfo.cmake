@@ -5,7 +5,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/main.cpp" "/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles/SelectionSort.dir/main.cpp.o"
+  "/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Button.cpp" "/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles/SelectionSort.dir/source/Button.cpp.o"
   "/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Rectangle.cpp" "/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles/SelectionSort.dir/source/Rectangle.cpp.o"
+  "/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Sort.cpp" "/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles/SelectionSort.dir/source/Sort.cpp.o"
+  "/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Texture.cpp" "/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles/SelectionSort.dir/source/Texture.cpp.o"
   "/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/selectionsort.cpp" "/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles/SelectionSort.dir/source/selectionsort.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

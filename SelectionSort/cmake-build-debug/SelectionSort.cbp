@@ -84,7 +84,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/includes/Button.h">
+			<Option target="SelectionSort"/>
+		</Unit>
 		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/includes/Rectangle.h">
+			<Option target="SelectionSort"/>
+		</Unit>
+		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/includes/Sort.h">
+			<Option target="SelectionSort"/>
+		</Unit>
+		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/includes/Texture.h">
 			<Option target="SelectionSort"/>
 		</Unit>
 		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/includes/selectionsort.h">
@@ -93,7 +102,16 @@
 		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/main.cpp">
 			<Option target="SelectionSort"/>
 		</Unit>
+		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Button.cpp">
+			<Option target="SelectionSort"/>
+		</Unit>
 		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Rectangle.cpp">
+			<Option target="SelectionSort"/>
+		</Unit>
+		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Sort.cpp">
+			<Option target="SelectionSort"/>
+		</Unit>
+		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Texture.cpp">
 			<Option target="SelectionSort"/>
 		</Unit>
 		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/selectionsort.cpp">

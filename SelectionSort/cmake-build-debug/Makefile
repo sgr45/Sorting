@@ -170,6 +170,33 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SelectionSort.dir/build.make CMakeFiles/SelectionSort.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+source/Button.o: source/Button.cpp.o
+
+.PHONY : source/Button.o
+
+# target to build an object file
+source/Button.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SelectionSort.dir/build.make CMakeFiles/SelectionSort.dir/source/Button.cpp.o
+.PHONY : source/Button.cpp.o
+
+source/Button.i: source/Button.cpp.i
+
+.PHONY : source/Button.i
+
+# target to preprocess a source file
+source/Button.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SelectionSort.dir/build.make CMakeFiles/SelectionSort.dir/source/Button.cpp.i
+.PHONY : source/Button.cpp.i
+
+source/Button.s: source/Button.cpp.s
+
+.PHONY : source/Button.s
+
+# target to generate assembly for a file
+source/Button.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SelectionSort.dir/build.make CMakeFiles/SelectionSort.dir/source/Button.cpp.s
+.PHONY : source/Button.cpp.s
+
 source/Rectangle.o: source/Rectangle.cpp.o
 
 .PHONY : source/Rectangle.o
@@ -196,6 +223,60 @@ source/Rectangle.s: source/Rectangle.cpp.s
 source/Rectangle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SelectionSort.dir/build.make CMakeFiles/SelectionSort.dir/source/Rectangle.cpp.s
 .PHONY : source/Rectangle.cpp.s
+
+source/Sort.o: source/Sort.cpp.o
+
+.PHONY : source/Sort.o
+
+# target to build an object file
+source/Sort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SelectionSort.dir/build.make CMakeFiles/SelectionSort.dir/source/Sort.cpp.o
+.PHONY : source/Sort.cpp.o
+
+source/Sort.i: source/Sort.cpp.i
+
+.PHONY : source/Sort.i
+
+# target to preprocess a source file
+source/Sort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SelectionSort.dir/build.make CMakeFiles/SelectionSort.dir/source/Sort.cpp.i
+.PHONY : source/Sort.cpp.i
+
+source/Sort.s: source/Sort.cpp.s
+
+.PHONY : source/Sort.s
+
+# target to generate assembly for a file
+source/Sort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SelectionSort.dir/build.make CMakeFiles/SelectionSort.dir/source/Sort.cpp.s
+.PHONY : source/Sort.cpp.s
+
+source/Texture.o: source/Texture.cpp.o
+
+.PHONY : source/Texture.o
+
+# target to build an object file
+source/Texture.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SelectionSort.dir/build.make CMakeFiles/SelectionSort.dir/source/Texture.cpp.o
+.PHONY : source/Texture.cpp.o
+
+source/Texture.i: source/Texture.cpp.i
+
+.PHONY : source/Texture.i
+
+# target to preprocess a source file
+source/Texture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SelectionSort.dir/build.make CMakeFiles/SelectionSort.dir/source/Texture.cpp.i
+.PHONY : source/Texture.cpp.i
+
+source/Texture.s: source/Texture.cpp.s
+
+.PHONY : source/Texture.s
+
+# target to generate assembly for a file
+source/Texture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SelectionSort.dir/build.make CMakeFiles/SelectionSort.dir/source/Texture.cpp.s
+.PHONY : source/Texture.cpp.s
 
 source/selectionsort.o: source/selectionsort.cpp.o
 
@@ -236,9 +317,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... source/Button.o"
+	@echo "... source/Button.i"
+	@echo "... source/Button.s"
 	@echo "... source/Rectangle.o"
 	@echo "... source/Rectangle.i"
 	@echo "... source/Rectangle.s"
+	@echo "... source/Sort.o"
+	@echo "... source/Sort.i"
+	@echo "... source/Sort.s"
+	@echo "... source/Texture.o"
+	@echo "... source/Texture.i"
+	@echo "... source/Texture.s"
 	@echo "... source/selectionsort.o"
 	@echo "... source/selectionsort.i"
 	@echo "... source/selectionsort.s"
