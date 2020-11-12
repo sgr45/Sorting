@@ -9,9 +9,8 @@ Sort::Sort(int w_width, int w_height)
 {
     window=SDL_CreateWindow("Sort Visualisation",SDL_WINDOWPOS_CENTERED,SDL_WINDOWPOS_CENTERED,w_width=1000,w_height=700,SDL_WINDOW_SHOWN);
     renderer=SDL_CreateRenderer(window,-1,SDL_RENDERER_ACCELERATED);
-    SDL_SetRenderDrawColor(renderer,255,0,0,255);
-    SDL_RenderClear(renderer);
-    SDL_RenderPresent(renderer);
+    std::string path= "../Media/Fonts/font2.ttf";
+    font = TTF_OpenFont(path.c_str(), 20);
     quit=false;
     generatorclick=false;
     selectionclick=false;
@@ -19,11 +18,12 @@ Sort::Sort(int w_width, int w_height)
 
 void Sort::EventHandler()
 {
-    Button generator("Generate new set of numbers",100,100,400);
-    Button selection("Selection Sort",100,200,400);
-    generator.render(renderer,font);
-    selection.render(renderer,font);
+    clearall();
+    generator= Button("Generate numbers",10,10,300);
+    selection=Button("Selection Sort",400,10,300);
+    AllButton();
     SDL_RenderPresent(renderer);
+
 
     while(!quit) {
         while (SDL_PollEvent(&event))
@@ -41,13 +41,21 @@ void Sort::EventHandler()
                     srand((mouse_y+mouse_x));
                     v={};
                     for(int i=0;i<60;i++)    v.push_back((rand()%600));
+                    clearall();
+                    AllButton();
                     rectangle.draw_array(renderer,v,{},-1);
                     SDL_RenderPresent(renderer);
                 }
+
                 if(selection.isClicked(mouse_x,mouse_y))
                 {
                     selectionsort select;
                     select.startsort(renderer,v);
+                    clearall();
+                    rectangle.draw_array(renderer,v,{},-1);
+                    AllButton();
+                    SDL_RenderPresent(renderer);
+
                 }
             }
         }
@@ -63,5 +71,20 @@ void Sort::close()
     window=NULL;
     renderer=NULL;
     SDL_Quit();
+
+}
+
+void Sort::AllButton()
+{
+    generator.render(renderer,font);
+    selection.render(renderer,font);
+   // SDL_RenderPresent(renderer);
+
+}
+void  Sort::clearall()
+{
+    SDL_SetRenderDrawColor(renderer,136,192,208,255);
+    SDL_RenderClear(renderer);
+    //SDL_RenderPresent(renderer);
 
 }

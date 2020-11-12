@@ -24,6 +24,8 @@ private:
     bool selectionclick;
     Rectangle rectangle;
     TTF_Font *font;
+    Button generator;
+    Button selection;
 
 
 
@@ -33,6 +35,8 @@ public:
     Sort(int w_width,int w_height );
     void EventHandler();
     void close();
+    void AllButton();
+    void clearall();
 
 
 

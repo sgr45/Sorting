@@ -26,6 +26,8 @@ CMakeFiles/SelectionSort.dir/source/Texture.cpp.o
  ../includes/Texture.h
  /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Texture.cpp
 CMakeFiles/SelectionSort.dir/source/selectionsort.cpp.o
+ ../includes/Button.h
  ../includes/Rectangle.h
+ ../includes/Texture.h
  ../includes/selectionsort.h
  /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/selectionsort.cpp

@@ -5,8 +5,8 @@
 #include "../includes/Rectangle.h"
 
 void Rectangle::DrawRectangle(SDL_Renderer * renderer,int x_pos, int height, int colour) {
-    if(colour==1) SDL_SetRenderDrawColor(renderer,00,255,00,255);//starting colour
-    else if(colour==2) SDL_SetRenderDrawColor(renderer,00,255,255,255);//selection colour
+    if(colour==1) SDL_SetRenderDrawColor(renderer,00,00,00,00);//starting colour
+    else if(colour==2) SDL_SetRenderDrawColor(renderer,208,118,0,255);//selection colour
     else if(colour==3) SDL_SetRenderDrawColor(renderer,255,255,255,255);//final colour
     SDL_Rect rect;
     rect.x=x_pos;

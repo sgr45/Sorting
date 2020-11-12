@@ -25,6 +25,9 @@ void Button::render(SDL_Renderer *renderer, TTF_Font *font)
     Texture texture;
     texture.loadFromText(renderer, text, fontColor, font);
     texture.render(renderer, xPosition + width/5, yPosition+ height/4);
+
+
+
 }
 
 void Button::outer(SDL_Renderer *renderer)
@@ -42,7 +45,7 @@ Button::Button(std::string _text, int x_pos, int y_pos, int _width, int _height)
     height = _height;
     isClickedButton = false;
 }
-
+Button::Button() {}
 
 
 Button ::~Button()
