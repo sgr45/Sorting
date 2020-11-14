@@ -8,6 +8,7 @@ void Rectangle::DrawRectangle(SDL_Renderer * renderer,int x_pos, int height, int
     if(colour==1) SDL_SetRenderDrawColor(renderer,00,00,00,00);//starting colour
     else if(colour==2) SDL_SetRenderDrawColor(renderer,208,118,0,255);//selection colour
     else if(colour==3) SDL_SetRenderDrawColor(renderer,255,255,255,255);//final colour
+    else if(colour==4) SDL_SetRenderDrawColor(renderer,204,255,0,255);
     SDL_Rect rect;
     rect.x=x_pos;
     rect.y=650;
@@ -28,7 +29,7 @@ void Rectangle::draw_array(SDL_Renderer *renderer, std::vector <int> v, std::vec
     }
     for(int j=0;j<beg;j++)
     {
-        DrawRectangle(renderer,50+j*15 ,-v[j],1);
+        DrawRectangle(renderer,50+j*15 ,-v[j],4);
 
     }
     for(int j=i+1;j<v.size();j++)

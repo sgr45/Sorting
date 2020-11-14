@@ -66,7 +66,7 @@ void selectionsort::startsort(SDL_Renderer *renderer, std::vector<int> v)
 }
 //screen clear
 void selectionsort::clear(SDL_Renderer *renderer) {
-    SDL_SetRenderDrawColor(renderer,74,192,53,255);
+    SDL_SetRenderDrawColor(renderer,29,208,252,255);
     SDL_RenderClear(renderer);
 
 }

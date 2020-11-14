@@ -25,7 +25,7 @@ void Quicksort::Quick( SDL_Renderer *renderer,int beg, int end)
             clear(renderer);
             rectangle.draw_array(renderer,v,{vot},end,beg);
             SDL_RenderPresent(renderer);
-            SDL_Delay(500);
+            SDL_Delay(400);
             for (int i = beg + 1; i <= end; i++) {
                 if (v[i] < pivot) {
                     swap(v[i], v[++mid]);
@@ -36,7 +36,7 @@ void Quicksort::Quick( SDL_Renderer *renderer,int beg, int end)
             clear(renderer);
             rectangle.draw_array(renderer,v,{mid},end,beg);
             SDL_RenderPresent(renderer);
-            SDL_Delay(500);
+            SDL_Delay(600);
             Quick(renderer,beg, mid - 1);
             Quick(renderer, mid+ 1, end);
         }
@@ -54,7 +54,7 @@ void Quicksort::swap ( int& x, int &y){
 
 void Quicksort::clear(SDL_Renderer *renderer)
 {
-    SDL_SetRenderDrawColor(renderer,74,192,53,255);
+    SDL_SetRenderDrawColor(renderer,29,208,252,255);
     SDL_RenderClear(renderer);
 }
 Quicksort::Quicksort(std::vector<int>q)
