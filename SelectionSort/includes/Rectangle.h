@@ -12,7 +12,7 @@
 class Rectangle {
 
     public:
-    void draw_array(SDL_Renderer *renderer,std::vector<int>,std::vector<int>,int);
+    void draw_array(SDL_Renderer *renderer,std::vector<int>,std::vector<int>,int,int beg=0);
     void DrawRectangle(SDL_Renderer *renderer,int x_pos,int height,int colour);
 };
 

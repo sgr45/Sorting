@@ -87,6 +87,9 @@
 		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/includes/Button.h">
 			<Option target="SelectionSort"/>
 		</Unit>
+		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/includes/Quicksort.h">
+			<Option target="SelectionSort"/>
+		</Unit>
 		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/includes/Rectangle.h">
 			<Option target="SelectionSort"/>
 		</Unit>
@@ -103,6 +106,9 @@
 			<Option target="SelectionSort"/>
 		</Unit>
 		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Button.cpp">
+			<Option target="SelectionSort"/>
+		</Unit>
+		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Quicksort.cpp">
 			<Option target="SelectionSort"/>
 		</Unit>
 		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Rectangle.cpp">

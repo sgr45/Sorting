@@ -10,6 +10,7 @@
 #include "selectionsort.h"
 #include "vector"
 #include "Button.h"
+#include "Quicksort.h"
 
 
 class Sort {
@@ -26,6 +27,7 @@ private:
     TTF_Font *font;
     Button generator;
     Button selection;
+    Button quick;
 
 
 

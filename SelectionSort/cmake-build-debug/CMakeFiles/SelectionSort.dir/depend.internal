@@ -3,6 +3,7 @@
 
 CMakeFiles/SelectionSort.dir/main.cpp.o
  ../includes/Button.h
+ ../includes/Quicksort.h
  ../includes/Rectangle.h
  ../includes/Sort.h
  ../includes/Texture.h
@@ -12,11 +13,18 @@ CMakeFiles/SelectionSort.dir/source/Button.cpp.o
  ../includes/Button.h
  ../includes/Texture.h
  /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Button.cpp
+CMakeFiles/SelectionSort.dir/source/Quicksort.cpp.o
+ ../includes/Button.h
+ ../includes/Quicksort.h
+ ../includes/Rectangle.h
+ ../includes/Texture.h
+ /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Quicksort.cpp
 CMakeFiles/SelectionSort.dir/source/Rectangle.cpp.o
  /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/includes/Rectangle.h
  /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Rectangle.cpp
 CMakeFiles/SelectionSort.dir/source/Sort.cpp.o
  ../includes/Button.h
+ ../includes/Quicksort.h
  ../includes/Rectangle.h
  ../includes/Sort.h
  ../includes/Texture.h

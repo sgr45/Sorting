@@ -19,8 +19,9 @@ Sort::Sort(int w_width, int w_height)
 void Sort::EventHandler()
 {
     clearall();
-    generator= Button("Generate numbers",10,10,300);
-    selection=Button("Selection Sort",400,10,300);
+    generator= Button("Generate numbers",10,10,250);
+    selection=Button("Selection Sort",300,10,250);
+    quick=Button("Quick Sort",590,10,250);
     AllButton();
     SDL_RenderPresent(renderer);
 
@@ -57,6 +58,17 @@ void Sort::EventHandler()
                     SDL_RenderPresent(renderer);
 
                 }
+                if(quick.isClicked(mouse_x,mouse_y))
+                {
+                    Quicksort quicksort(v);
+                    quicksort.startQuick(renderer);
+                    clearall();
+                    rectangle.draw_array(renderer,v,{},-1);
+                    AllButton();
+                    SDL_RenderPresent(renderer);
+
+                }
+
             }
         }
     }
@@ -78,6 +90,7 @@ void Sort::AllButton()
 {
     generator.render(renderer,font);
     selection.render(renderer,font);
+    quick.render(renderer,font);
    // SDL_RenderPresent(renderer);
 
 }

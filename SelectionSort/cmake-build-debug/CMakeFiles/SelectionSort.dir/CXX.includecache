@@ -16,6 +16,20 @@ iostream
 Texture.h
 ../includes/Texture.h
 
+../includes/Quicksort.h
+vector
+../includes/vector
+SDL2/SDL.h
+../includes/SDL2/SDL.h
+SDL2/SDL_ttf.h
+../includes/SDL2/SDL_ttf.h
+Rectangle.h
+../includes/Rectangle.h
+iostream
+../includes/iostream
+Button.h
+../includes/Button.h
+
 ../includes/Rectangle.h
 SDL2/SDL.h
 ../includes/SDL2/SDL.h
@@ -38,23 +52,7 @@ cstddef
 string
 -
 
-../includes/selectionsort.h
-SDL2/SDL.h
-../includes/SDL2/SDL.h
-SDL2/SDL_ttf.h
-../includes/SDL2/SDL_ttf.h
-Rectangle.h
-../includes/Rectangle.h
-vector
-../includes/vector
-
-/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/selectionsort.cpp
-selectionsort.h
-/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/selectionsort.h
-iostream
-/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/iostream
-vector
-/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/vector
-Button.h
-/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Button.h
+/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Quicksort.cpp
+Quicksort.h
+/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Quicksort.h
 

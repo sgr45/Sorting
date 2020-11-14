@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/main.cpp" "/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles/SelectionSort.dir/main.cpp.o"
   "/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Button.cpp" "/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles/SelectionSort.dir/source/Button.cpp.o"
+  "/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Quicksort.cpp" "/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles/SelectionSort.dir/source/Quicksort.cpp.o"
   "/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Rectangle.cpp" "/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles/SelectionSort.dir/source/Rectangle.cpp.o"
   "/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Sort.cpp" "/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles/SelectionSort.dir/source/Sort.cpp.o"
   "/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Texture.cpp" "/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles/SelectionSort.dir/source/Texture.cpp.o"

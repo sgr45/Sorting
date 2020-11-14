@@ -197,6 +197,33 @@ source/Button.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SelectionSort.dir/build.make CMakeFiles/SelectionSort.dir/source/Button.cpp.s
 .PHONY : source/Button.cpp.s
 
+source/Quicksort.o: source/Quicksort.cpp.o
+
+.PHONY : source/Quicksort.o
+
+# target to build an object file
+source/Quicksort.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SelectionSort.dir/build.make CMakeFiles/SelectionSort.dir/source/Quicksort.cpp.o
+.PHONY : source/Quicksort.cpp.o
+
+source/Quicksort.i: source/Quicksort.cpp.i
+
+.PHONY : source/Quicksort.i
+
+# target to preprocess a source file
+source/Quicksort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SelectionSort.dir/build.make CMakeFiles/SelectionSort.dir/source/Quicksort.cpp.i
+.PHONY : source/Quicksort.cpp.i
+
+source/Quicksort.s: source/Quicksort.cpp.s
+
+.PHONY : source/Quicksort.s
+
+# target to generate assembly for a file
+source/Quicksort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SelectionSort.dir/build.make CMakeFiles/SelectionSort.dir/source/Quicksort.cpp.s
+.PHONY : source/Quicksort.cpp.s
+
 source/Rectangle.o: source/Rectangle.cpp.o
 
 .PHONY : source/Rectangle.o
@@ -320,6 +347,9 @@ help:
 	@echo "... source/Button.o"
 	@echo "... source/Button.i"
 	@echo "... source/Button.s"
+	@echo "... source/Quicksort.o"
+	@echo "... source/Quicksort.i"
+	@echo "... source/Quicksort.s"
 	@echo "... source/Rectangle.o"
 	@echo "... source/Rectangle.i"
 	@echo "... source/Rectangle.s"

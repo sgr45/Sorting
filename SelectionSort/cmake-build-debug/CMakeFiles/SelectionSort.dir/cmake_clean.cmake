@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/SelectionSort.dir/main.cpp.o"
   "CMakeFiles/SelectionSort.dir/source/Button.cpp.o"
+  "CMakeFiles/SelectionSort.dir/source/Quicksort.cpp.o"
   "CMakeFiles/SelectionSort.dir/source/Rectangle.cpp.o"
   "CMakeFiles/SelectionSort.dir/source/Sort.cpp.o"
   "CMakeFiles/SelectionSort.dir/source/Texture.cpp.o"

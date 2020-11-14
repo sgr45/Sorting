@@ -16,12 +16,17 @@ void Rectangle::DrawRectangle(SDL_Renderer * renderer,int x_pos, int height, int
     SDL_RenderFillRect(renderer,&rect);
 }
 
-void Rectangle::draw_array(SDL_Renderer *renderer, std::vector <int> v, std::vector<int> swap, int i)
+void Rectangle::draw_array(SDL_Renderer *renderer, std::vector <int> v, std::vector<int> swap, int i,int beg)
 {
 
-    for(int j=0;j<=i;j++)
+    for(int j=beg;j<=i;j++)
     {
         DrawRectangle(renderer,50+j*15 ,-v[j],3);
+
+    }
+    for(int j=0;j<beg;j++)
+    {
+        DrawRectangle(renderer,50+j*15 ,-v[j],1);
 
     }
     for(int j=i+1;j<v.size();j++)
