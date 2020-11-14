@@ -21,8 +21,6 @@ private:
     bool quit;
     int mouse_x,mouse_y;
     std::vector<int>v;
-    bool generatorclick;
-    bool selectionclick;
     Rectangle rectangle;
     TTF_Font *font;
     Button generator;

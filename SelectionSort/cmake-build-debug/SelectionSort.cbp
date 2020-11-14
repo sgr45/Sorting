@@ -8,43 +8,43 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug"/>
+				<Option working_dir="/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug"/>
+				<Option working_dir="/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug"/>
+				<Option working_dir="/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SelectionSort">
-				<Option output="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/SelectionSort" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug"/>
+				<Option output="/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/SelectionSort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/includes"/>
+					<Add directory="/home/sgr/Desktop/SelectionSort/SelectionSort/includes"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -54,20 +54,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 SelectionSort"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 SelectionSort"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SelectionSort/fast">
-				<Option output="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/SelectionSort" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug"/>
+				<Option output="/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/SelectionSort" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/includes"/>
+					<Add directory="/home/sgr/Desktop/SelectionSort/SelectionSort/includes"/>
 					<Add directory="/usr/include/c++/9"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
 					<Add directory="/usr/include/c++/9/backward"/>
@@ -77,53 +77,53 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 SelectionSort/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 SelectionSort/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/includes/Button.h">
+		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/includes/Button.h">
 			<Option target="SelectionSort"/>
 		</Unit>
-		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/includes/Quicksort.h">
+		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/includes/Quicksort.h">
 			<Option target="SelectionSort"/>
 		</Unit>
-		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/includes/Rectangle.h">
+		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/includes/Rectangle.h">
 			<Option target="SelectionSort"/>
 		</Unit>
-		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/includes/Sort.h">
+		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/includes/Sort.h">
 			<Option target="SelectionSort"/>
 		</Unit>
-		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/includes/Texture.h">
+		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/includes/Texture.h">
 			<Option target="SelectionSort"/>
 		</Unit>
-		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/includes/selectionsort.h">
+		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/includes/selectionsort.h">
 			<Option target="SelectionSort"/>
 		</Unit>
-		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/main.cpp">
+		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/main.cpp">
 			<Option target="SelectionSort"/>
 		</Unit>
-		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Button.cpp">
+		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/source/Button.cpp">
 			<Option target="SelectionSort"/>
 		</Unit>
-		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Quicksort.cpp">
+		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/source/Quicksort.cpp">
 			<Option target="SelectionSort"/>
 		</Unit>
-		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Rectangle.cpp">
+		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/source/Rectangle.cpp">
 			<Option target="SelectionSort"/>
 		</Unit>
-		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Sort.cpp">
+		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/source/Sort.cpp">
 			<Option target="SelectionSort"/>
 		</Unit>
-		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Texture.cpp">
+		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/source/Texture.cpp">
 			<Option target="SelectionSort"/>
 		</Unit>
-		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/selectionsort.cpp">
+		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/source/selectionsort.cpp">
 			<Option target="SelectionSort"/>
 		</Unit>
-		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/CMakeLists.txt">
+		<Unit filename="/home/sgr/Desktop/SelectionSort/SelectionSort/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

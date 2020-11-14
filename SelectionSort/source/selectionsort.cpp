@@ -4,6 +4,7 @@
 #include "selectionsort.h"
 #include "iostream"
 #include "Button.h"
+//swaping number
 void swap ( int& x, int &y){
     int temp= x;
     x=y;
@@ -13,6 +14,7 @@ void swap ( int& x, int &y){
 
 void selectionsort::startsort(SDL_Renderer *renderer, std::vector<int> v)
 {
+    //font to render
     std::string path= "../Media/Fonts/font2.ttf";
     font = TTF_OpenFont(path.c_str(), 20);
     nquit=true;
@@ -36,6 +38,7 @@ void selectionsort::startsort(SDL_Renderer *renderer, std::vector<int> v)
             clear(renderer);
             sw.push_back(min_ind);
             sw.push_back(i);
+            /*Rendering rectangle array with different colour for swaping number swapped number and need to be swapped number*/
             rectangle.draw_array(renderer, v, sw, i);
             SDL_RenderPresent(renderer);
             swap(v[i], v[min_ind]);
@@ -61,6 +64,7 @@ void selectionsort::startsort(SDL_Renderer *renderer, std::vector<int> v)
 
 
 }
+//screen clear
 void selectionsort::clear(SDL_Renderer *renderer) {
     SDL_SetRenderDrawColor(renderer,74,192,53,255);
     SDL_RenderClear(renderer);

@@ -8,20 +8,20 @@ CMakeFiles/SelectionSort.dir/main.cpp.o
  ../includes/Sort.h
  ../includes/Texture.h
  ../includes/selectionsort.h
- /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/main.cpp
+ /home/sgr/Desktop/SelectionSort/SelectionSort/main.cpp
 CMakeFiles/SelectionSort.dir/source/Button.cpp.o
  ../includes/Button.h
  ../includes/Texture.h
- /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Button.cpp
+ /home/sgr/Desktop/SelectionSort/SelectionSort/source/Button.cpp
 CMakeFiles/SelectionSort.dir/source/Quicksort.cpp.o
  ../includes/Button.h
  ../includes/Quicksort.h
  ../includes/Rectangle.h
  ../includes/Texture.h
- /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Quicksort.cpp
+ /home/sgr/Desktop/SelectionSort/SelectionSort/source/Quicksort.cpp
 CMakeFiles/SelectionSort.dir/source/Rectangle.cpp.o
- /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/includes/Rectangle.h
- /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Rectangle.cpp
+ /home/sgr/Desktop/SelectionSort/SelectionSort/includes/Rectangle.h
+ /home/sgr/Desktop/SelectionSort/SelectionSort/source/Rectangle.cpp
 CMakeFiles/SelectionSort.dir/source/Sort.cpp.o
  ../includes/Button.h
  ../includes/Quicksort.h
@@ -29,13 +29,13 @@ CMakeFiles/SelectionSort.dir/source/Sort.cpp.o
  ../includes/Sort.h
  ../includes/Texture.h
  ../includes/selectionsort.h
- /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Sort.cpp
+ /home/sgr/Desktop/SelectionSort/SelectionSort/source/Sort.cpp
 CMakeFiles/SelectionSort.dir/source/Texture.cpp.o
  ../includes/Texture.h
- /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Texture.cpp
+ /home/sgr/Desktop/SelectionSort/SelectionSort/source/Texture.cpp
 CMakeFiles/SelectionSort.dir/source/selectionsort.cpp.o
  ../includes/Button.h
  ../includes/Rectangle.h
  ../includes/Texture.h
  ../includes/selectionsort.h
- /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/selectionsort.cpp
+ /home/sgr/Desktop/SelectionSort/SelectionSort/source/selectionsort.cpp

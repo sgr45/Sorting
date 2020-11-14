@@ -64,10 +64,10 @@ RM = /snap/clion/129/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort
+CMAKE_SOURCE_DIR = /home/sgr/Desktop/SelectionSort/SelectionSort
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug
+CMAKE_BINARY_DIR = /home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -94,14 +94,14 @@ clean: CMakeFiles/SelectionSort.dir/clean
 CMakeFiles/SelectionSort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SelectionSort.dir/build.make CMakeFiles/SelectionSort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SelectionSort.dir/build.make CMakeFiles/SelectionSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target SelectionSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target SelectionSort"
 .PHONY : CMakeFiles/SelectionSort.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SelectionSort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SelectionSort.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/SelectionSort.dir/rule
 
 # Convenience name for target.

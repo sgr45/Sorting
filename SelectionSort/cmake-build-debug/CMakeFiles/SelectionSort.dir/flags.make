@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/includes 
+CXX_INCLUDES = -I/home/sgr/Desktop/SelectionSort/SelectionSort/includes 
 

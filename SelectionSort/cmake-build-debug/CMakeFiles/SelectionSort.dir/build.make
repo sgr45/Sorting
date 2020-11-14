@@ -63,10 +63,10 @@ RM = /snap/clion/129/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort
+CMAKE_SOURCE_DIR = /home/sgr/Desktop/SelectionSort/SelectionSort
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug
+CMAKE_BINARY_DIR = /home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SelectionSort.dir/depend.make
@@ -79,94 +79,94 @@ include CMakeFiles/SelectionSort.dir/flags.make
 
 CMakeFiles/SelectionSort.dir/main.cpp.o: CMakeFiles/SelectionSort.dir/flags.make
 CMakeFiles/SelectionSort.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SelectionSort.dir/main.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SelectionSort.dir/main.cpp.o -c /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SelectionSort.dir/main.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SelectionSort.dir/main.cpp.o -c /home/sgr/Desktop/SelectionSort/SelectionSort/main.cpp
 
 CMakeFiles/SelectionSort.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SelectionSort.dir/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/main.cpp > CMakeFiles/SelectionSort.dir/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgr/Desktop/SelectionSort/SelectionSort/main.cpp > CMakeFiles/SelectionSort.dir/main.cpp.i
 
 CMakeFiles/SelectionSort.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SelectionSort.dir/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/main.cpp -o CMakeFiles/SelectionSort.dir/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgr/Desktop/SelectionSort/SelectionSort/main.cpp -o CMakeFiles/SelectionSort.dir/main.cpp.s
 
 CMakeFiles/SelectionSort.dir/source/Rectangle.cpp.o: CMakeFiles/SelectionSort.dir/flags.make
 CMakeFiles/SelectionSort.dir/source/Rectangle.cpp.o: ../source/Rectangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SelectionSort.dir/source/Rectangle.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SelectionSort.dir/source/Rectangle.cpp.o -c /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Rectangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SelectionSort.dir/source/Rectangle.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SelectionSort.dir/source/Rectangle.cpp.o -c /home/sgr/Desktop/SelectionSort/SelectionSort/source/Rectangle.cpp
 
 CMakeFiles/SelectionSort.dir/source/Rectangle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SelectionSort.dir/source/Rectangle.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Rectangle.cpp > CMakeFiles/SelectionSort.dir/source/Rectangle.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgr/Desktop/SelectionSort/SelectionSort/source/Rectangle.cpp > CMakeFiles/SelectionSort.dir/source/Rectangle.cpp.i
 
 CMakeFiles/SelectionSort.dir/source/Rectangle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SelectionSort.dir/source/Rectangle.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Rectangle.cpp -o CMakeFiles/SelectionSort.dir/source/Rectangle.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgr/Desktop/SelectionSort/SelectionSort/source/Rectangle.cpp -o CMakeFiles/SelectionSort.dir/source/Rectangle.cpp.s
 
 CMakeFiles/SelectionSort.dir/source/selectionsort.cpp.o: CMakeFiles/SelectionSort.dir/flags.make
 CMakeFiles/SelectionSort.dir/source/selectionsort.cpp.o: ../source/selectionsort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SelectionSort.dir/source/selectionsort.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SelectionSort.dir/source/selectionsort.cpp.o -c /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/selectionsort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SelectionSort.dir/source/selectionsort.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SelectionSort.dir/source/selectionsort.cpp.o -c /home/sgr/Desktop/SelectionSort/SelectionSort/source/selectionsort.cpp
 
 CMakeFiles/SelectionSort.dir/source/selectionsort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SelectionSort.dir/source/selectionsort.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/selectionsort.cpp > CMakeFiles/SelectionSort.dir/source/selectionsort.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgr/Desktop/SelectionSort/SelectionSort/source/selectionsort.cpp > CMakeFiles/SelectionSort.dir/source/selectionsort.cpp.i
 
 CMakeFiles/SelectionSort.dir/source/selectionsort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SelectionSort.dir/source/selectionsort.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/selectionsort.cpp -o CMakeFiles/SelectionSort.dir/source/selectionsort.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgr/Desktop/SelectionSort/SelectionSort/source/selectionsort.cpp -o CMakeFiles/SelectionSort.dir/source/selectionsort.cpp.s
 
 CMakeFiles/SelectionSort.dir/source/Button.cpp.o: CMakeFiles/SelectionSort.dir/flags.make
 CMakeFiles/SelectionSort.dir/source/Button.cpp.o: ../source/Button.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SelectionSort.dir/source/Button.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SelectionSort.dir/source/Button.cpp.o -c /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Button.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SelectionSort.dir/source/Button.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SelectionSort.dir/source/Button.cpp.o -c /home/sgr/Desktop/SelectionSort/SelectionSort/source/Button.cpp
 
 CMakeFiles/SelectionSort.dir/source/Button.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SelectionSort.dir/source/Button.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Button.cpp > CMakeFiles/SelectionSort.dir/source/Button.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgr/Desktop/SelectionSort/SelectionSort/source/Button.cpp > CMakeFiles/SelectionSort.dir/source/Button.cpp.i
 
 CMakeFiles/SelectionSort.dir/source/Button.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SelectionSort.dir/source/Button.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Button.cpp -o CMakeFiles/SelectionSort.dir/source/Button.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgr/Desktop/SelectionSort/SelectionSort/source/Button.cpp -o CMakeFiles/SelectionSort.dir/source/Button.cpp.s
 
 CMakeFiles/SelectionSort.dir/source/Texture.cpp.o: CMakeFiles/SelectionSort.dir/flags.make
 CMakeFiles/SelectionSort.dir/source/Texture.cpp.o: ../source/Texture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SelectionSort.dir/source/Texture.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SelectionSort.dir/source/Texture.cpp.o -c /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SelectionSort.dir/source/Texture.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SelectionSort.dir/source/Texture.cpp.o -c /home/sgr/Desktop/SelectionSort/SelectionSort/source/Texture.cpp
 
 CMakeFiles/SelectionSort.dir/source/Texture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SelectionSort.dir/source/Texture.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Texture.cpp > CMakeFiles/SelectionSort.dir/source/Texture.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgr/Desktop/SelectionSort/SelectionSort/source/Texture.cpp > CMakeFiles/SelectionSort.dir/source/Texture.cpp.i
 
 CMakeFiles/SelectionSort.dir/source/Texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SelectionSort.dir/source/Texture.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Texture.cpp -o CMakeFiles/SelectionSort.dir/source/Texture.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgr/Desktop/SelectionSort/SelectionSort/source/Texture.cpp -o CMakeFiles/SelectionSort.dir/source/Texture.cpp.s
 
 CMakeFiles/SelectionSort.dir/source/Sort.cpp.o: CMakeFiles/SelectionSort.dir/flags.make
 CMakeFiles/SelectionSort.dir/source/Sort.cpp.o: ../source/Sort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SelectionSort.dir/source/Sort.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SelectionSort.dir/source/Sort.cpp.o -c /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Sort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SelectionSort.dir/source/Sort.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SelectionSort.dir/source/Sort.cpp.o -c /home/sgr/Desktop/SelectionSort/SelectionSort/source/Sort.cpp
 
 CMakeFiles/SelectionSort.dir/source/Sort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SelectionSort.dir/source/Sort.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Sort.cpp > CMakeFiles/SelectionSort.dir/source/Sort.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgr/Desktop/SelectionSort/SelectionSort/source/Sort.cpp > CMakeFiles/SelectionSort.dir/source/Sort.cpp.i
 
 CMakeFiles/SelectionSort.dir/source/Sort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SelectionSort.dir/source/Sort.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Sort.cpp -o CMakeFiles/SelectionSort.dir/source/Sort.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgr/Desktop/SelectionSort/SelectionSort/source/Sort.cpp -o CMakeFiles/SelectionSort.dir/source/Sort.cpp.s
 
 CMakeFiles/SelectionSort.dir/source/Quicksort.cpp.o: CMakeFiles/SelectionSort.dir/flags.make
 CMakeFiles/SelectionSort.dir/source/Quicksort.cpp.o: ../source/Quicksort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SelectionSort.dir/source/Quicksort.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SelectionSort.dir/source/Quicksort.cpp.o -c /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Quicksort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SelectionSort.dir/source/Quicksort.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SelectionSort.dir/source/Quicksort.cpp.o -c /home/sgr/Desktop/SelectionSort/SelectionSort/source/Quicksort.cpp
 
 CMakeFiles/SelectionSort.dir/source/Quicksort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SelectionSort.dir/source/Quicksort.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Quicksort.cpp > CMakeFiles/SelectionSort.dir/source/Quicksort.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sgr/Desktop/SelectionSort/SelectionSort/source/Quicksort.cpp > CMakeFiles/SelectionSort.dir/source/Quicksort.cpp.i
 
 CMakeFiles/SelectionSort.dir/source/Quicksort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SelectionSort.dir/source/Quicksort.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/source/Quicksort.cpp -o CMakeFiles/SelectionSort.dir/source/Quicksort.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sgr/Desktop/SelectionSort/SelectionSort/source/Quicksort.cpp -o CMakeFiles/SelectionSort.dir/source/Quicksort.cpp.s
 
 # Object files for target SelectionSort
 SelectionSort_OBJECTS = \
@@ -190,7 +190,7 @@ SelectionSort: CMakeFiles/SelectionSort.dir/source/Sort.cpp.o
 SelectionSort: CMakeFiles/SelectionSort.dir/source/Quicksort.cpp.o
 SelectionSort: CMakeFiles/SelectionSort.dir/build.make
 SelectionSort: CMakeFiles/SelectionSort.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable SelectionSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable SelectionSort"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SelectionSort.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -203,6 +203,6 @@ CMakeFiles/SelectionSort.dir/clean:
 .PHONY : CMakeFiles/SelectionSort.dir/clean
 
 CMakeFiles/SelectionSort.dir/depend:
-	cd /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles/SelectionSort.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sgr/Desktop/SelectionSort/SelectionSort /home/sgr/Desktop/SelectionSort/SelectionSort /home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug /home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug /home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug/CMakeFiles/SelectionSort.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/SelectionSort.dir/depend
 

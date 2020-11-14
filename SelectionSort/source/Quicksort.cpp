@@ -64,9 +64,9 @@ Quicksort::Quicksort(std::vector<int>q)
 
 void Quicksort::startQuick(SDL_Renderer *renderer)
 {
+    Quick(renderer,0,v.size()-1);
     clear(renderer);
     rectangle.draw_array(renderer,v, {},v.size());
-    Quick(renderer,0,v.size()-1);
     Button butt("Press any key to continue",10,10,500);
     butt.render(renderer,font);
     SDL_RenderPresent(renderer);

@@ -1,4 +1,4 @@
-/snap/clion/129/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort
+/snap/clion/129/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" /home/sgr/Desktop/SelectionSort/SelectionSort
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/sgr/Desktop/SelectionSort/SelectionSort/SelectionSort/cmake-build-debug
+-- Build files have been written to: /home/sgr/Desktop/SelectionSort/SelectionSort/cmake-build-debug
